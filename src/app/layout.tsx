@@ -18,7 +18,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {' '}
         <nav className="p-4">
           <ul className="flex justify-center gap-10">
             <li className="px-4 border border-indigo-600 rounded-lg">
