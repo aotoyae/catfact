@@ -19,26 +19,26 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         {' '}
-        <nav>
-          <ul className="flex justify-center">
-            <li className="px-4">
+        <nav className="p-4">
+          <ul className="flex justify-center gap-10">
+            <li className="px-4 border border-indigo-600 rounded-lg">
               <Link href="/">HOME</Link>
             </li>
-            <li className="px-4">
+            <li className="px-4 border border-indigo-600 rounded-lg">
               <Link href="/ssg">SSG</Link>
             </li>
-            <li className="px-4">
+            <li className="px-4 border border-indigo-600 rounded-lg">
               <Link href="/isr">ISR</Link>
             </li>
-            <li className="px-4">
+            <li className="px-4 border border-indigo-600 rounded-lg">
               <Link href="/ssr">SSR</Link>
             </li>
-            <li className="px-4">
+            <li className="px-4 border border-indigo-600 rounded-lg">
               <Link href="/csr">CSR</Link>
             </li>
           </ul>
         </nav>
-        {children}
+        <div className="flex justify-center text-center">{children}</div>
       </body>
     </html>
   );

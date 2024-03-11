@@ -1,5 +1,5 @@
-import Link from 'next/link';
-
-export default function Home() {
+const Home = () => {
   return <h1>hihi</h1>;
-}
+};
+
+export default Home;
