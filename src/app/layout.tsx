@@ -20,12 +20,20 @@ export default function RootLayout({
       <body className={inter.className}>
         {' '}
         <nav>
-          <ul>
-            <li>
+          <ul className="flex justify-center">
+            <li className="px-4">
               <Link href="/">HOME</Link>
+            </li>
+            <li className="px-4">
               <Link href="/ssg">SSG</Link>
+            </li>
+            <li className="px-4">
               <Link href="/isr">ISR</Link>
+            </li>
+            <li className="px-4">
               <Link href="/ssr">SSR</Link>
+            </li>
+            <li className="px-4">
               <Link href="/csr">CSR</Link>
             </li>
           </ul>
